@@ -3,7 +3,6 @@ import { DiJavascript1 } from "react-icons/di";
 import { IoLogoPython } from "react-icons/io5";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaFigma } from "react-icons/fa6";
-import { DiNodejsSmall } from "react-icons/di";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -98,17 +97,6 @@ export const Technologies = () => {
             <FaFigma className="text-7xl text-gray-500" />
           </a>
         </motion.div>
-
-        <motion.div
-          variants={iconVariants(7.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <a href="https://nodejs.org/docs/latest/api/" target="_blank">
-            <DiNodejsSmall className="text-7xl text-green-600" />
-          </a>
-        </motion.div>
       </motion.div>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -121,10 +109,10 @@ export const Technologies = () => {
         </p>
         <p>- React, Javascript, HTML, CSS</p>
         <p>
-          - TailwindCSS
+          - Tailwind
         </p>
         <p>
-          - Python, Node.js
+          - Python
         </p>
         <p>- Figma, Github</p>
       </motion.div>
