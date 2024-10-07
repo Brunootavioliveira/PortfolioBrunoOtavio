@@ -1,4 +1,4 @@
-# Bruno Otavio - Personal Portfolio 
+# Bruno Otavio - Persona Portfolio 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Brunootavioliveira/PortfolioBrunoOtavio/blob/main/LICENSE) 
 
 Este projeto tem como objetivo exibir meu portfólio pessoal com um design moderno e responsivo, utilizando Tailwind CSS. O site apresenta meus projetos mais recentes, habilidades e um pouco da minha trajetória profissional.
